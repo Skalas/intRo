@@ -30,4 +30,7 @@
 ***** Subsets
 ***** NA rm 
 ** Clase 2 
- 
+* Bib
+- http://www.quora.com/What-is-a-good-introduction-to-R
+- https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf
+- https://class.coursera.org/rprog-031/wiki/Week_2
