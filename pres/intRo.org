@@ -1,0 +1,33 @@
+#+TITLE:     Curso Introductorio a R
+#+AUTHOR:    Miguel Angel Escalante Serrato
+#+EMAIL:     escalas5@gmail.com
+#+LANGUAGE:  es
+#+LaTeX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt,spanish,oneside,titlepage,draft]
+#+LATEX_HEADER: \usepackage[Sonny]{fncychap}
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LATEX_HEADER: \newcommand{\re}{\mathbb{R}}
+#+LATEX_HEADER: \parskip=10pt
+# Curso introductorio a R. 
+* Temario 
+** Clase 1
+*** Introducción a R 
+**** Filosofía del lenguaje 
+**** Orígen
+**** ¿Para qué? 
+**** Rstudio
+**** Shiny
+*** Introducción al lenguaje.
+**** Instalación ( con Rstudio. ). 
+**** Línea de comandos 
+**** Ayuda
+**** Estructura de datos. 
+***** Vectores
+***** Aritmética
+***** Faltantes
+***** Data Frames
+***** Subsets
+***** NA rm 
+** Clase 2 
+ 
