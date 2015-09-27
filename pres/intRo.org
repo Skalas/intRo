@@ -9,7 +9,17 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LATEX_HEADER: \newcommand{\re}{\mathbb{R}}
 #+LATEX_HEADER: \parskip=10pt
-# Curso introductorio a R. 
+#+OPTIONS: num:nil toc:nil
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:nil reveal_keyboard:t reveal_overview:t
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_THEME: night
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_SLIDE_NUMBER: t
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="ITAM Maestría en Ciencia de Datos">
+#+REVEAL_HEAD_PREAMBLE: <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+#+REVEAL_PLUGINS: (highlight markdown notes)
+
 * Temario 
 ** Clase 1
 *** Introducción a R 
@@ -30,6 +40,7 @@
 ***** Subsets
 ***** NA rm 
 ** Clase 2 
+*** 
 * Bib
 - http://www.quora.com/What-is-a-good-introduction-to-R
 - https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf

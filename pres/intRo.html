@@ -7,7 +7,7 @@
 <meta name="author" content="(Miguel Angel Escalante Serrato)"/>
 
 <link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/reveal.css"/>
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/theme/night.css" id="theme"/>
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -19,6 +19,8 @@
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="reveal">
@@ -29,70 +31,52 @@
 <h2><a href="mailto:escalas5@gmail.com">escalas5@gmail.com</a></h2>
 <h2></h2>
 </section>
-<section id="table-of-contents">
-<div id="table-of-contents">
-<h2>&Iacute;ndice</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#/slide-sec-1">1. Introducción a R</a>
-<ul>
-<li><a href="#/slide-sec-1-1">1.1. Filosofía del lenguaje</a></li>
-<li><a href="#/slide-sec-1-2">1.2. Orígen</a></li>
-<li><a href="#/slide-sec-1-3">1.3. ¿Para qué?</a></li>
-<li><a href="#/slide-sec-1-4">1.4. Rstudio</a></li>
-<li><a href="#/slide-sec-1-5">1.5. Shiny</a></li>
-</ul>
-</li>
-<li><a href="#/slide-sec-2">2. Introducción al lenguaje.</a>
-<ul>
-<li><a href="#/slide-sec-2-1">2.1. Instalación ( con shiny ).</a></li>
-<li><a href="#/slide-sec-2-2">2.2. Línea de comandos</a></li>
-<li><a href="#/slide-sec-2-3">2.3. Ayuda</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</section>
-<p>
-## Temario
-### Clase 1
-</p>
 
 <section>
 <section id="slide-sec-1">
-<h2 id="sec-1"><span class="section-number-2">1</span> Introducción a R</h2>
+<h2 id="sec-1">Temario</h2>
 <div class="outline-text-2" id="text-1">
 </div></section>
 <section id="slide-sec-1-1">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Filosofía del lenguaje</h3>
+<h3 id="sec-1-1">Clase 1</h3>
+<div class="outline-text-3" id="text-1-1">
+</div></section>
+<section id="slide-sec-1-1-1">
+<h4 id="sec-1-1-1">Introducción a R</h4>
+<div class="outline-text-4" id="text-1-1-1">
+</div><ul class="org-ul"><li><a id="sec-1-1-1-1" name="sec-1-1-1-1"></a>Filosofía del lenguaje<br  /></li>
+<li><a id="sec-1-1-1-2" name="sec-1-1-1-2"></a>Orígen<br  /></li>
+<li><a id="sec-1-1-1-3" name="sec-1-1-1-3"></a>¿Para qué?<br  /></li>
+<li><a id="sec-1-1-1-4" name="sec-1-1-1-4"></a>Rstudio<br  /></li>
+<li><a id="sec-1-1-1-5" name="sec-1-1-1-5"></a>Shiny<br  /></li></ul>
+</section>
+<section id="slide-sec-1-1-2">
+<h4 id="sec-1-1-2">Introducción al lenguaje.</h4>
+<div class="outline-text-4" id="text-1-1-2">
+</div><ul class="org-ul"><li><a id="sec-1-1-2-1" name="sec-1-1-2-1"></a>Instalación ( con Rstudio. ).<br  /></li>
+<li><a id="sec-1-1-2-2" name="sec-1-1-2-2"></a>Línea de comandos<br  /></li>
+<li><a id="sec-1-1-2-3" name="sec-1-1-2-3"></a>Ayuda<br  /></li>
+<li><a id="sec-1-1-2-4" name="sec-1-1-2-4"></a>Estructura de datos.<br  /><ul class="org-ul"><li><a id="sec-1-1-2-4-1" name="sec-1-1-2-4-1"></a>Vectores<br  /></li>
+<li><a id="sec-1-1-2-4-2" name="sec-1-1-2-4-2"></a>Aritmética<br  /></li>
+<li><a id="sec-1-1-2-4-3" name="sec-1-1-2-4-3"></a>Faltantes<br  /></li>
+<li><a id="sec-1-1-2-4-4" name="sec-1-1-2-4-4"></a>Data Frames<br  /></li>
+<li><a id="sec-1-1-2-4-5" name="sec-1-1-2-4-5"></a>Subsets<br  /></li>
+<li><a id="sec-1-1-2-4-6" name="sec-1-1-2-4-6"></a>NA rm<br  /></li></ul>
+</li></ul>
 </section>
 <section id="slide-sec-1-2">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Orígen</h3>
-</section>
-<section id="slide-sec-1-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> ¿Para qué?</h3>
-</section>
-<section id="slide-sec-1-4">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Rstudio</h3>
-</section>
-<section id="slide-sec-1-5">
-<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Shiny</h3>
+<h3 id="sec-1-2">Clase 2</h3>
 </section>
 </section>
 <section>
 <section id="slide-sec-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Introducción al lenguaje.</h2>
-<div class="outline-text-2" id="text-2">
-</div></section>
-<section id="slide-sec-2-1">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Instalación ( con shiny ).</h3>
-</section>
-<section id="slide-sec-2-2">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Línea de comandos</h3>
-</section>
-<section id="slide-sec-2-3">
-<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Ayuda</h3>
+<h2 id="sec-2">Bib</h2>
+<ul>
+<li><a href="http://www.quora.com/What-is-a-good-introduction-to-R">http://www.quora.com/What-is-a-good-introduction-to-R</a></li>
+<li><a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf</a></li>
+<li><a href="https://class.coursera.org/rprog-031/wiki/Week_2">https://class.coursera.org/rprog-031/wiki/Week_2</a></li>
+
+</ul>
 </section>
 </section>
 </div>
@@ -108,12 +92,15 @@ Reveal.initialize({
 
 controls: true,
 progress: true,
-history: false,
+history: true,
 center: true,
 slideNumber: true,
 rollingLinks: false,
 keyboard: true,
 overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
 
 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
@@ -126,11 +113,9 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
  { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
  { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
- { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
  { src: 'http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]
 });
